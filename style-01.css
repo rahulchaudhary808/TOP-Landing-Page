@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* =========================================== */
+/* the first bg */
+/* =========================================== */
+
+.first-bg{
+    background-color: #1f2937;
+    height: 100vh;
+}
+
+/* =========================================== */
+/* the nav bar */
+/* =========================================== */
+.navbar{
+    background-color: rgb(37, 37, 193);
+    border-radius: 29px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-item a{
+    /* display: block; */
+    color: white;
+    text-decoration: none;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    /* padding: 14px 16px; */
+}
+
+.nav-item a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    /* border: 100px; */
+}
+/* =========================================== */
+/* hero elements */
+/* =========================================== */
+
+.hero-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 10vh;
+}
+
+.hero-container .hero-discription{
+    height: 70vh;
+    width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-top: 10vh; */
+
+    font-weight: bold;
+    color: white;
+    border: 4px solid rgb(172, 167, 227);
+    border-radius: 20px;
+}
+
+.hero-discription h1{
+    height: 10vh;
+    margin-top: 7vh;
+
+}
+
+.hero-discription p{
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+.hero-container img{
+    height: 70vh;
+    width: 30vw;
+    align-self: flex-end;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+
+/* second bg */
+
+.second-bg{
+    background-color: #cacaca;
+    height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.cnp-images, .image-discription{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 10vh; */
+}
+
+.cnp-images img, .discription{
+    margin-top: 40px;
+    height: 45vh;
+    width: 20vw;
+    border: 5px solid white;
+    /* margin: 20px; */
+}
+
+.image-discription .discription{
+    border: none;
+    height: 20vh;
+    text-align: center;
+}
+
+
+/* last bg */
+
+.last-bg{
+    height: 100vh;
+    width: 100vw;
+    background-color: #b5b7ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10vh;
+}
+
+.last-bg .vistnepalcontainer{
+    height: 70vh;
+    width: 70vw;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgb(119, 141, 141);
+    align-self: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 60px;
+}
+
+.vistnepalcontainer h1{
+    margin-top: 40px;
+}
+
+.vistnepalcontainer p{
+    margin-top: 20px;
+    width: 60vw;
+    font-weight: bold;
+}
+
+.last-bg .copyright{
+    height: 10vh;
+    background-color: #1f2937 ;
+    display: flex;
+    /* align-self: flex-end; */
+}
+
+.copyright span{
+    color: white;
+    width: 100vw;
+    text-align: center;
+    align-self: center;
+    
+}
